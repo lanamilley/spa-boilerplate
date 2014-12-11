@@ -92,7 +92,7 @@ jQuery(function($) {
       // Some page data
       this.model.set({
         title: '<h2>Home Page</h2>',
-        content: '<p>test</p>'
+        content: '<p>How then do you use this magic number in the composition of your web page? The math may seem like a stifling box that your creativity will struggle in, but the golden ratio is simply a useful guideline. Having a basic guideline to build from can end up giving you more creative room by taking some of the guesswork out of proportions and placement. Think of it as a tool instead of a cage. Templates allow to construct own grid schemes in a drag-and-drop action, flipping, layering, and zooming them. Build your grids depending on the projects need, and your professional sense of design, making sure that the golden ratio principles supplement your work with divine proportions.</p>'
       });
 
     },
