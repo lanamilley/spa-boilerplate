@@ -14,7 +14,7 @@ html
   meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui")
 
   link(rel="stylesheet", href="assets/styles/main.css", type="text/css")
-  link(rel="stylesheet", href="css/bootstrap.min.css" , type="text/css")
+  //- link(rel="stylesheet", href="css/bootstrap.min.css" , type="text/html")
 
   body
 
@@ -32,7 +32,7 @@ html
 
         li: a(href="/rule") The rule of thirds
 
-        li: a(href="/sequence") Fibonacci sequence
+        li: a(href="/fibonacci") Fibonacci sequence
 
         li: a(href="/spiral") Golden spiral
 
@@ -56,11 +56,11 @@ html
   script#rule(type="text/template").
     <div class="page rule">{{{content}}}</div>
 
-  script#sequence(type="text/template").
+  script#fib(type="text/template").
     <div class="page sequence">{{{content}}}</div>
 
-  script#spiral(type="text/template").
-    <div class="page spiral">{{{content}}}</div>
+  script#about(type="text/template").
+    <div class="page about">{{{content}}}</div>
 
   // -----------------------------
   // Libraries

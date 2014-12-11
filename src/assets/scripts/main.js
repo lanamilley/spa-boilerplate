@@ -15,7 +15,7 @@ jQuery(function($) {
     routes: {
       '' : 'home',
       'block': 'rule',
-      'sequence': 'spiral'
+      'fib': 'spiral'
     },
 
     // Home Route
@@ -34,12 +34,12 @@ jQuery(function($) {
     rule: function() {
       console.log('Navigating to Rule Page');
       App.views['rule'].render();
-    }
+    },
 
     // Sequence Route
-    sequence: function() {
+    fib: function() {
       console.log('Navigating to Sequence Page');
-      App.views['sequence'].render();
+      App.views['fib'].render();
     },
 
     // Spiral Route
@@ -64,7 +64,7 @@ jQuery(function($) {
       home: new HomeView(),
       block: new BlockView(),
       rule: new RuleView(),
-      sequence: new SequenceView(),
+      fib: new FibView(),
       spiral: new SpiralView()
     };
 
@@ -191,13 +191,13 @@ jQuery(function($) {
   // Sequence View
   // -----------------------------
 
-  var SequenceView = Backbone.View.extend({
+  var FibView = Backbone.View.extend({
 
     // Our Container Element
     el: $('.main'),
 
     // Our template ID
-    template: '#sequence',
+    template: '#fib',
 
     // Initialize View
     initialize: function() {
