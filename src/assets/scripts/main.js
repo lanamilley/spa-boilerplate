@@ -91,7 +91,8 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Home Page</h1>'
+        title: '<h2>Home Page</h2>',
+        content: '<p>test</p>'
       });
 
     },
@@ -130,7 +131,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Block Divine</h1>'
+        content: '<h2>Block Divine</h2>'
       });
 
     },
@@ -169,7 +170,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>The rule of thirs</h1>'
+        content: '<h2>The rule of thirs</h2>'
       });
 
     },
@@ -208,7 +209,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Fibonacci Sequence</h1>'
+        content: '<h2>Fibonacci Sequence</h2>'
       });
 
     },
@@ -247,7 +248,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Golden spiral</h1>'
+        content: '<h2>Golden spiral</h2>'
       });
 
     },
