@@ -131,7 +131,8 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h2>Block Divine</h2>'
+        title: '<h2>Block divine composition</h2>',
+        content: '<p>At its most basic, you can use the golden ratio to designate the size and placement of content areas and side bars. A fixed-width layout is the easiest application. Decide on the overall size of your layout via the method for creating a golden rectangle. Remember that your rectangle can be flipped around to suit your purposes, putting the sidebar at the top, bottom, or opposite side. As long as the ratio holds, your design will feel harmonious.</p>'
       });
 
     },
@@ -170,7 +171,8 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h2>The rule of thirs</h2>'
+        title: '<h2>The rule of thirds</h2>',
+        content: '<p>If math is not your cup of tea, the concept of the golden ratio can be simplified. The rule of thirds governs the placement of points of interest in a scene. Divide any given image into thirds both horizontally and vertically. Youll get 9 grids. According to the rule of thirds, the vertices of those lines (where the lines cross) are the ideal placement for points of interest. People scanning the page are more likely to notice things placed near the points, and the division is comfortable to view. More complex design is possible by breaking down those thirds into further thirds. In short, the eye can be lazy and not have to search for important details. Our brains like this. Major images, news boxes, search bars and any other points of interest can be nestled on or near the vertices. This neat little shortcut will give you a design that is both easy on the eyes and makes people drawn to key pieces of data.</p>'
       });
 
     },
