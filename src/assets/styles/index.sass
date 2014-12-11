@@ -30,12 +30,15 @@ h2
   margin-bottom: 20px
   text-transform: uppercase
   font-size: 14px
-  color: $mint
+  color: $red
 
 a
   text-decoration: none
   display: inline-block
   color: $black
+
+a:hover
+      color: $mint
 
 // -----------------------------
 // App Specific
@@ -60,9 +63,15 @@ a
   border-bottom: 1px solid $mint
   text-align: center
 
+.logo
+  width: 182px
+  height: 80px
+  background-image: url("http://www.goldenratiogridgenerator.com/images/logo182x80.png")
+  margin: 0 auto 24px auto
+
 .footer
   text-align: center
-  color: $light
+  color: $mint
 
 // -----------------------------
 // Navigation
@@ -79,7 +88,10 @@ a
     list-style: none
 
     a
-      padding: 5px 10px
+      padding: 10px 10px
+
+    a:hover
+      color: $red
 
 // -----------------------------
 // Main
@@ -88,6 +100,22 @@ a
 .main
   padding: 20px
   border-bottom: 1px solid $mint
+
+  a
+    color: $mint
+
+  a:hover
+    color: $red
+
+.imgTemp 
+  width: 320px
+  height: 202px
+  margin: 40px auto
+
+.video 
+  width: 420px
+  height: 315px
+  margin: 40px auto
 
 // -----------------------------
 // Footer

@@ -21,7 +21,7 @@ h2 {
   margin-bottom: 20px;
   text-transform: uppercase;
   font-size: 14px;
-  color: #8CA5A2; }
+  color: #B22132; }
 
 /* line 29, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 a {
@@ -29,52 +29,84 @@ a {
   display: inline-block;
   color: #000; }
 
-/* line 35, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 34, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+a:hover {
+  color: #8CA5A2; }
+
+/* line 38, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .wrapper {
   width: 960px;
   margin: 0 auto; }
 
-/* line 39, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 42, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .header, .main, .footer {
   width: 100%;
   display: block;
   clear: both;
   float: left; }
 
-/* line 46, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 49, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .header {
   padding: 20px;
   border-bottom: 1px solid #8CA5A2;
   text-align: center; }
 
-/* line 51, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 54, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+.logo {
+  width: 182px;
+  height: 80px;
+  background-image: url("http://www.goldenratiogridgenerator.com/images/logo182x80.png");
+  margin: 0 auto 24px auto; }
+
+/* line 60, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .footer {
   text-align: center;
-  color: #CBCBCB; }
+  color: #8CA5A2; }
 
-/* line 56, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 65, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .nav {
   margin: 0;
   padding: 0; }
-  /* line 60, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 69, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
   .nav li {
     margin: 0;
     padding: 0;
     display: inline-block;
     list-style: none; }
-    /* line 66, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+    /* line 75, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
     .nav li a {
-      padding: 5px 10px; }
+      padding: 10px 10px; }
+    /* line 78, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+    .nav li a:hover {
+      color: #B22132; }
 
-/* line 70, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 82, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .main {
   padding: 20px;
   border-bottom: 1px solid #8CA5A2; }
+  /* line 86, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+  .main a {
+    color: #8CA5A2; }
+  /* line 89, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+  .main a:hover {
+    color: #B22132; }
 
-/* line 75, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 92, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+.imgTemp {
+  width: 320px;
+  height: 202px;
+  margin: 40px auto; }
+
+/* line 97, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+.video {
+  width: 420px;
+  height: 315px;
+  margin: 40px auto; }
+
+/* line 103, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .footer {
   padding: 20px; }
-  /* line 78, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 106, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
   .footer p {
     margin: 0;
     padding: 0;
