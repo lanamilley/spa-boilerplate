@@ -11,46 +11,51 @@ body {
   color: #555; }
 
 /* line 17, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+h1 {
+  text-transform: upper;
+  font-size: 16px; }
+
+/* line 21, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 a {
   text-decoration: none;
   display: inline-block;
   color: #555; }
 
-/* line 23, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 27, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .header, .main, .footer {
   width: 100%;
   display: block;
   clear: both;
   float: left; }
 
-/* line 30, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 34, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .header {
   padding: 20px;
   border-bottom: 1px solid #efefef; }
 
-/* line 35, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 39, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .nav {
   margin: 0;
   padding: 0; }
-  /* line 39, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 43, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
   .nav li {
     margin: 0;
     padding: 0;
     display: inline-block;
     list-style: none; }
-    /* line 45, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+    /* line 49, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
     .nav li a {
       padding: 5px 10px; }
 
-/* line 49, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 53, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .main {
   padding: 20px;
   border-bottom: 1px solid #efefef; }
 
-/* line 54, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+/* line 58, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
 .footer {
   padding: 20px; }
-  /* line 57, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 61, /Users/lana/Downloads/spa-boilerplate/src/assets/styles/index.sass */
   .footer p {
     margin: 0;
     padding: 0;
