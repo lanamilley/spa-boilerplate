@@ -26,7 +26,7 @@ html
 
       ul.nav
 
-        li: a(href="/") About
+        li: a(href="/") Home
 
         li: a(href="/block") Block Divine 
 
@@ -50,11 +50,17 @@ html
   script#home(type="text/template").
     <div class="page home">{{{content}}}</div>
 
-  script#about(type="text/template").
-    <div class="page about">{{{content}}}</div>
+  script#block(type="text/template").
+    <div class="page block">{{{content}}}</div>
 
-  script#contact(type="text/template").
-    <div class="page contact">{{{content}}}</div>
+  script#rule(type="text/template").
+    <div class="page rule">{{{content}}}</div>
+
+  script#sequence(type="text/template").
+    <div class="page sequence">{{{content}}}</div>
+
+  script#spiral(type="text/template").
+    <div class="page spiral">{{{content}}}</div>
 
   // -----------------------------
   // Libraries

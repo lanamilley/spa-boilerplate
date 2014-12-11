@@ -14,8 +14,8 @@ jQuery(function($) {
     // Our Routes
     routes: {
       '' : 'home',
-      'about': 'about',
-      'contact': 'contact'
+      'block': 'rule',
+      'sequence': 'spiral'
     },
 
     // Home Route
@@ -24,16 +24,28 @@ jQuery(function($) {
       App.views['home'].render();
     },
 
-    // About Route
-    about: function() {
-      console.log('Navigating to About Page');
-      App.views['about'].render();
+    // Block Route
+    block: function() {
+      console.log('Navigating to Block Page');
+      App.views['block'].render();
     },
 
-    // Contact Route
-    contact: function() {
-      console.log('Navigating to Contact Page');
-      App.views['contact'].render();
+    // Rule Route
+    rule: function() {
+      console.log('Navigating to Rule Page');
+      App.views['rule'].render();
+    }
+
+    // Sequence Route
+    sequence: function() {
+      console.log('Navigating to Sequence Page');
+      App.views['sequence'].render();
+    },
+
+    // Spiral Route
+    spiral: function() {
+      console.log('Navigating to Spiral Page');
+      App.views['spiral'].render();
     }
 
   });
@@ -50,8 +62,10 @@ jQuery(function($) {
     // Setup views
     this.views = {
       home: new HomeView(),
-      about: new AboutView(),
-      contact: new ContactView()
+      block: new BlockView(),
+      rule: new RuleView(),
+      sequence: new SequenceView(),
+      spiral: new SpiralView()
     };
 
   };
@@ -96,16 +110,16 @@ jQuery(function($) {
   });
 
   // -----------------------------
-  // About View
+  // Block View
   // -----------------------------
 
-  var AboutView = Backbone.View.extend({
+  var BlockView = Backbone.View.extend({
 
     // Our Container Element
     el: $('.main'),
 
     // Our template ID
-    template: '#about',
+    template: '#block',
 
     // Initialize View
     initialize: function() {
@@ -116,7 +130,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>About Page</h1>'
+        content: '<h1>Block Divine</h1>'
       });
 
     },
@@ -135,16 +149,16 @@ jQuery(function($) {
   });
 
   // -----------------------------
-  // Contact View
+  // Rule View
   // -----------------------------
 
-  var ContactView = Backbone.View.extend({
+  var RuleView = Backbone.View.extend({
 
     // Our Container Element
     el: $('.main'),
 
     // Our template ID
-    template: '#contact',
+    template: '#rule',
 
     // Initialize View
     initialize: function() {
@@ -155,7 +169,85 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Contact Page</h1>'
+        content: '<h1>The rule of thirs</h1>'
+      });
+
+    },
+
+    // Our Render Function
+    render: function() {
+
+      // Get data and render our template
+      var data = this.model.toJSON();
+      var html = this.template(data);
+
+      // Set update the containers HTML
+      $(this.el).html(html);
+    }
+
+  });
+
+  // -----------------------------
+  // Sequence View
+  // -----------------------------
+
+  var SequenceView = Backbone.View.extend({
+
+    // Our Container Element
+    el: $('.main'),
+
+    // Our template ID
+    template: '#sequence',
+
+    // Initialize View
+    initialize: function() {
+
+      // Setup our template and start our model
+      this.template = Handlebars.compile($(this.template).html());
+      this.model = new Backbone.Model({});
+
+      // Some page data
+      this.model.set({
+        content: '<h1>Fibonacci Sequence</h1>'
+      });
+
+    },
+
+    // Our Render Function
+    render: function() {
+
+      // Get data and render our template
+      var data = this.model.toJSON();
+      var html = this.template(data);
+
+      // Set update the containers HTML
+      $(this.el).html(html);
+    }
+
+  });
+
+  // -----------------------------
+  // Spiral View
+  // -----------------------------
+
+  var SpiralView = Backbone.View.extend({
+
+    // Our Container Element
+    el: $('.main'),
+
+    // Our template ID
+    template: '#spiral',
+
+    // Initialize View
+    initialize: function() {
+
+      // Setup our template and start our model
+      this.template = Handlebars.compile($(this.template).html());
+      this.model = new Backbone.Model({});
+
+      // Some page data
+      this.model.set({
+        content: '<h1>Golden spiral</h1>'
       });
 
     },
