@@ -1,3 +1,9 @@
+// Questions: 
+// - how to add image (with link)
+// - how to add link as well
+// - a:hover effect
+// - pages js issue
+
 
 // -----------------------------
 // Wait for DOM Load
@@ -91,8 +97,8 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        title: '<h2>Home Page</h2>',
-        content: '<p>How then do you use this magic number in the composition of your web page? The math may seem like a stifling box that your creativity will struggle in, but the golden ratio is simply a useful guideline. Having a basic guideline to build from can end up giving you more creative room by taking some of the guesswork out of proportions and placement. Think of it as a tool instead of a cage. Templates allow to construct own grid schemes in a drag-and-drop action, flipping, layering, and zooming them. Build your grids depending on the projects need, and your professional sense of design, making sure that the golden ratio principles supplement your work with divine proportions.</p>'
+        title: '<h2>Golden Ratio Grid Generator project</h2>',
+        content: '<p>Natural Logic is a design tool for assisting in the creation of wireframes and mockups for responsive projects. Templates ease UI/UX challenges by designating the size and placement of content areas, and finding good guidelines for content density. How then do you use this magic number in the composition of your web page? The math may seem like a stifling box that your creativity will struggle in, but the golden ratio is simply a useful guideline. Having a basic guideline to build from can end up giving you more creative room by taking some of the guesswork out of proportions and placement. Think of it as a tool instead of a cage. Templates allow to construct own grid schemes in a drag-and-drop action, flipping, layering, and zooming them. Build your grids depending on the projects need, and your professional sense of design, making sure that the golden ratio principles supplement your work with divine proportions.</p>'
       });
 
     },
@@ -211,7 +217,8 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h2>Fibonacci Sequence</h2>'
+        title: '<h2>Fibonacci Sequence</h2>',
+        content: '<p>Another simple tool for web design linked to the golden ratio is Fibonacci numbers. A Fibonacci sequence begins with 0 and 1. The previous two numbers are added together to produce the next number in the sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34... and so on. A little math tells us that the relationship between sequential Fibonacci sequence numbers is startlingly close to the golden ratio – divide the any number in the sequence with the number before it and you will get – you guessed it – 1.618. As with the golden ratio, Fibonacci numbers can be used to dictate the relationship between header and content text sizes. It could also be used to designate the width of columns and is especially effective in blogs and other text-dense layouts. Composition could also be built upon the concept of Fibonacci tiling, in which tile size is built upon using the Fibonacci sequence.</p>'
       });
 
     },
@@ -250,7 +257,8 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h2>Golden spiral</h2>'
+        title: '<h2>Golden spiral</h2>',
+        content: '<p>Another possible method of using both the golden ratio and Fibonacci numbers are the golden spirals and Fibonacci spirals. Golden spirals get wider by a factor equal to the golden ratio for every quarter turn they make, and Fibonacci spirals are formed using Fibonacci tiling. The spirals have been used in artwork for as long as the numbers and ratios themselves. The theory is that areas of negative space and visual interested should fit within the spiral. Within this graceful layout, as with the rule of thirds, the eye is naturally drawn to the centre of the spiral to look for details. The spirals can serve as a guideline for content density and clustering. They can serve as the foundation for the ratio of your website header images, search bars and tool bars. When choosing the ideal image for a front page built around large graphics, such as store home pages and photography websites, you can also benefit from the golden and Fibonacci spirals.</p>'
       });
 
     },

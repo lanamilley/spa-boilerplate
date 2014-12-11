@@ -6,7 +6,9 @@
 - Run `gulp` or `gulp watch` to run build tasks/watch for file changes
 - Run `node server.js` to begin running server on **127.0.0.1:3000**
 
-## Dependancies
+## Technologies or libraries used:
+
+### Dependancies
 
 - [Backbone.js](http://backbonejs.org/)
 - [Underscore.js](http://underscorejs.org/)
@@ -14,11 +16,17 @@
 - [jQuery](http://jquery.com/)
 - [Express](http://expressjs.com/)
 
-## Dev Dependancies
+### Dev Dependancies
 
 - [Gulp](gulpjs.com)
 - [Gulp SASS](https://www.npmjs.org/package/gulp-sass)
 - [Gulp Imagemin](https://www.npmjs.org/package/gulp-imagemin)
 - [Gulp Reaname](https://www.npmjs.org/package/gulp-rename)
 - [Gulp Jade](https://www.npmjs.org/package/gulp-jade)
+
+#### 
+- CodeKit // sass [ variables for colours and Coogle font ]
+- was trying to use bootstrap, installed it, but didn't use for styling
+- was playing with grunt in Terminal [ bootstrap ]
+- thank you Darcy Clarke for templates and assistance
 
